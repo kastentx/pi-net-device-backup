@@ -950,6 +950,23 @@
      "file": "/home/pi/.node-red/node_modules/node-red-node-base64/70-base64.js"
     }
    }
+  },
+  "node-red-contrib-viseo-jimp": {
+   "name": "node-red-contrib-viseo-jimp",
+   "version": "0.2.2",
+   "local": false,
+   "nodes": {
+    "jimp": {
+     "name": "jimp",
+     "types": [
+      "jimp"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-viseo-jimp",
+     "file": "/home/pi/.node-red/node_modules/node-red-contrib-viseo-jimp/node-jimp.js"
+    }
+   }
   }
  },
  "_credentialSecret": "fc71514bca3e25d4177fd43d34f8599d74e78e7b2ad9f67bd0d3d4ba68e97ef3",
