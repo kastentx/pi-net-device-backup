@@ -208,9 +208,10 @@ module.exports = {
     //    context.global.os
 
     functionGlobalContext: {
-	formData:require('form-data'),
 	    http:require('http'),
-	    fetch:require('node-fetch')
+	    fs:require('fs'),
+	    request:require('request'),
+	    rp:require('request-promise')
         // os:require('os'),
         // jfive:require("johnny-five"),
         // j5board:require("johnny-five").Board({repl:false})

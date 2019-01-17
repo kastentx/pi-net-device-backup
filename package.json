@@ -3,23 +3,17 @@
   "description": "A Node-RED Project",
   "version": "0.0.1",
   "dependencies": {
-    "form-data": "^2.3.3",
     "jimp": "^0.6.0",
+    "mic": "^2.1.2",
     "node-fetch": "^2.3.0",
-    "node-red-contrib-audio-classifier2": "^0.1.999",
     "node-red-contrib-camerapi": "0.0.38",
-    "node-red-contrib-http-request-multipart": "~0.2.11",
-    "node-red-contrib-ibm-watson-iot": "~0.2.8",
+    "node-red-contrib-ibm-watson-iot": "^0.2.8",
     "node-red-contrib-image-output": "~0.3.0",
-    "node-red-contrib-mic": "0.0.1",
     "node-red-contrib-micropi": "~1.0.5",
     "node-red-contrib-model-asset-exchange": "~0.1.2",
     "node-red-contrib-multipart-stream-encoder": "0.0.2",
-    "node-red-contrib-obj-detector2": "^0.2.1",
-    "node-red-contrib-send-multipart": "~0.3.9",
-    "node-red-contrib-viseo-jimp": "~0.2.2",
     "node-red-dashboard": "~2.13.0",
-    "node-red-node-base64": "~0.1.3",
-    "node-red-node-pi-sense-hat": "0.0.18"
+    "node-red-node-pi-sense-hat": "0.0.18",
+    "request-promise": "^4.2.2"
   }
 }
