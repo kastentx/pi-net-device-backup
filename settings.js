@@ -17,6 +17,7 @@
 // The `https` setting requires the `fs` module. Uncomment the following
 // to make it available:
 var fs = require("fs");
+var path = require("path");
 
 module.exports = {
     // the tcp port that the Node-RED web server is listening on
@@ -105,7 +106,7 @@ module.exports = {
     // When httpAdminRoot is used to move the UI to a different root path, the
     // following property can be used to identify a directory of static content
     // that should be served at http://localhost:1880/.
-    //httpStatic: '/home/nol/node-red-static/',
+    httpStatic: path.join(__dirname, 'public'),
 
     // The maximum size of HTTP request that will be accepted by the runtime api.
     // Default: 5mb
